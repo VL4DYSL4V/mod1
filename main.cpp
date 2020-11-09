@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include "Nightingale.h"
+#include "Sparrow.h"
 //Ticket5;
 
 std::vector<int> getPair(){
@@ -28,7 +30,15 @@ void testPair(std::vector<int> result){
     }
 }
 
+void testBirds(){
+    Nightingale nightingale("soooooong");
+    nightingale.sing();
+    Sparrow sparrow("soooooong");
+    sparrow.sing();
+}
+
 int main() {
     testPair(getPair());
+    testBirds();
     return 0;
 }
