@@ -11,7 +11,7 @@ public:
         this->song = song;
     }
 
-    virtual void sing();
+    virtual void sing() = 0;
 
 };
 

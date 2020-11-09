@@ -3,7 +3,7 @@
 #include "Bird.h"
 #include <string>
 #include <iostream>
-class Sparrow:Bird {
+class Sparrow: public Bird {
 
 public:
     Sparrow(std::string song) : Bird(song){

@@ -3,7 +3,7 @@
 #include "Bird.h"
 #include <string>
 #include <iostream>
-class Nightingale : protected Bird{
+class Nightingale : public Bird{
 
 public:
     Nightingale(std::string song) : Bird(song) {
